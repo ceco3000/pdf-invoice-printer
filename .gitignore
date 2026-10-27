@@ -1,0 +1,28 @@
+# 打包产物 / 发布包（PyInstaller 输出不入库）
+*.exe
+*.zip
+build/
+dist/
+*.spec
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# 工具与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 运行输出与临时文件
+*.log
+merged.pdf
+output/
+invoice_printer_*/
